@@ -1,0 +1,17 @@
+{
+  "name": "tests-executor",
+  "version": "1.0.0",
+  "description": "Remote machine that executes tests",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5"
+  }
+}
